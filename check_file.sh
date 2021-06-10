@@ -17,6 +17,7 @@ good_lines=""
 header_count=""
 footer_count=""
 
+## fail if pipe returns a non-zero status
 set -euo pipefail
 
 ### Make sure the script is being called with an existing file as an argument
