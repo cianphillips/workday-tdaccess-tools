@@ -8,5 +8,8 @@ Workday requires:
 1. The first line must be all spaces
 1. The file name must end in the correct suffix (.txt / .xml)
 
-The check_file.sh script verifies the above and attempts to fix any problems. It takes the filename of the file to be checked as an argument. (e.g., check_file.sh ISR_to_check) __WARNING: it does *not* create a backup of the file before making changes__.
+The __check_file.sh__ script verifies the above and attempts to fix any problems. It takes the filename of the file to be checked as an argument. (e.g., check_file.sh ISR_to_check) __WARNING: it does *not* create a backup of the file before making changes__.
 
+Next:
+1. Script(s) that we use to download the files from DOE and prep them for Workday to pick up.
+2. Instructions for adding to cron
