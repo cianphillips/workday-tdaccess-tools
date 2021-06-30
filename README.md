@@ -16,5 +16,5 @@ __Workday requires:__
 The __check_file.sh__ script verifies the above and attempts to fix any problems. It takes the filename of the file to be checked as an argument. (e.g., check_file.sh ISR_to_check) __WARNING: it does *not* create a backup of the file before making changes__.
 
 __Next:__
-1. Script(s) that we use to download the files from DOE and prep them for Workday to pick up.
-2. Instructions for adding to cron
+1. Instructions for adding to cron
+2. Add logic to split multiple reports downloaded into a single file into separate files consumable by Workday.
